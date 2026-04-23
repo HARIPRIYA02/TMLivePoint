@@ -76,11 +76,7 @@ Full transcript injected as context on every message. Streaming enabled so first
 
 ## Audio Architecture
 
-**Why stop-restart instead of requestData():**
-
-`MediaRecorder.requestData()` mid-stream returns blobs without the WebM container header. Groq's Whisper rejects headerless audio with "not a valid media file". 
-
-The fix: stop and restart a fresh `MediaRecorder` every 30 seconds. Each recording gets its own valid WebM header. The mic stream stays open continuously — only the recorder restarts.
+stop and restart - fresh `MediaRecorder` every 30 seconds. Each recording gets its own valid WebM header. The mic stream stays open continuously — only the recorder restarts.
 
 ```
 mic stream (continuous)
