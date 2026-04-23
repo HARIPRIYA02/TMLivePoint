@@ -2,7 +2,7 @@ TMLivePoint - Your AI Intervener
 
 A real-time meeting assistant that transcribes your microphone, surfaces 3 live tactical suggestions every 30 seconds, and lets you deep-dive via chat — all powered by Groq.
 
-**Live URL:** _paste your Vercel URL here_
+**Live URL:** https://tmlivepoint2.vercel.app/
 
 ---
 
