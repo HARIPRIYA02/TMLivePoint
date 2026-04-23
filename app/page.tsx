@@ -19,8 +19,8 @@ export default function Home() {
       <header className="topbar">
         <div className="topbar-brand">
           <Zap size={20} className="brand-icon" />
-          <span className="brand-name">MeetingMind</span>
-          <span className="brand-tag">Live AI Assistant</span>
+          <span className="brand-name">TMLivePoint</span>
+          <span className="brand-tag">Your AI Intervener</span>
         </div>
         <div className="topbar-actions">
           {!hasKey && (
