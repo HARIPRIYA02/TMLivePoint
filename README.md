@@ -22,8 +22,8 @@ A real-time meeting assistant that transcribes your microphone, surfaces 3 live 
 ## How to run locally
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/meetingmind
-cd meetingmind
+git clone https://github.com/HARIPRIYA02/TMLivePoint
+cd tmlivepoint
 npm install
 npm run dev
 ```
