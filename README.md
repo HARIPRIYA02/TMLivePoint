@@ -103,8 +103,6 @@ Suggestions fire: (1) immediately when a new transcript chunk arrives, (2) on th
 
 ## What I'd improve with more time
 
-1. **Speaker diarization** — knowing who said what changes suggestion direction entirely (your claim vs. their claim)
-2. **Sub-5s latency** — replace 30s Whisper chunks with Deepgram streaming for near-realtime transcription
-3. **Session memory** — persist transcripts and link meetings so the assistant knows "last time you talked to this person..."
-4. **Predictive suggestions** — if someone says "let me walk you through pricing", surface objection cards *before* the objection lands
-5. **Action item tracker** — live panel that extracts commitments ("I'll send that by Friday") as they're made
+1. **Domain specialization** — knowing the meeting type upfront (software engineering/scrum, legal, medical) would let the assistant apply domain-specific heuristics. 
+2. **Action item tracker** — a live panel that extracts commitments as they're made ("I'll send that by Friday", "let's loop in Sarah") rather than burying them in post-meeting notes.
+3. **Session memory** — persist transcripts and link meetings so the assistant knows "last time you talked to this person...".
